@@ -29,8 +29,8 @@ navigation, responsive design, and basic CSS animations.
 - HTML5
 - CSS3
 ## Live Website
-(https://juijui-hub30.github.io/Personal-Website/)
+https://juijui-hub30.github.io/Personal-Introduction-Website/
 ## GitHub Repository
-(https://github.com/juijui-hub30/Personal-Website)
+(https://github.com/juijui-hub30/Personal-Introduction-Website)
 ## Screenshot
 <img width="1335" height="996" alt="Screenshot Personal Portfolio Website" src="https://github.com/user-attachments/assets/ea70924f-6a0e-4cf8-847d-49631e263a72" />
