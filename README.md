@@ -34,3 +34,4 @@ https://juijui-hub30.github.io/Personal-Introduction-Website/
 (https://github.com/juijui-hub30/Personal-Introduction-Website)
 ## Screenshot
 <img width="1335" height="996" alt="Screenshot Personal Portfolio Website" src="https://github.com/user-attachments/assets/ea70924f-6a0e-4cf8-847d-49631e263a72" />
+<img width="1006" height="2048" alt="Screenshot Mobile Website" src="https://github.com/user-attachments/assets/0cbf4f31-babe-4152-9c4d-e021a29c8f3c" />
