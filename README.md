@@ -31,6 +31,6 @@ navigation, responsive design, and basic CSS animations.
 ## Live Website
 (https://juijui-hub30.github.io/Personal-Website/)
 ## GitHub Repository
-[View Repository](YOUR-GITHUB-REPOSITORY-LINK)
+(https://github.com/juijui-hub30/Personal-Website)
 ## Screenshot
 ![Personal Website Screenshot](screenshot.png)
