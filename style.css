@@ -1,0 +1,449 @@
+
+/* =========================
+   GENERAL SETTINGS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+header {
+    background-color: #C9BEFF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(125, 7, 155);
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: rgb(125, 7, 155);
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFDBFD;
+}
+/* =========================
+   HOME / HERO
+========================= */
+
+.hero {
+    min-height: 500px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.welcome {
+    color: #7c06c0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #a32bf3;
+}
+
+.hero h1 span {
+    color: #a32bf3;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    max-width: 650px;
+}
+/* =========================
+   BUTTON
+========================= */
+
+.button {
+    display: inline-block;
+
+    background-color: #6367FF;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #8494FF;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   PROFILE PICTURE
+========================= */
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center top;
+
+    /* Organic shape */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    /* Your color palette */
+    border: 8px solid #C9BEFF;
+    background-color: #FFDBFD;
+    box-shadow: 0 10px 30px rgba(99, 103, 255, 0.20);
+    position: relative;
+    z-index: 2;
+
+    /* Animations */
+    animation:
+        floatProfile 4s ease-in-out infinite,
+        morphShape 8s ease-in-out infinite alternate;
+
+    transition: all 0.5s ease;
+}
+
+/* =========================
+   PROFILE HOVER
+========================= */
+
+.profile-img:hover {
+    border-color: #8494FF;
+    box-shadow:
+        0 20px 40px rgba(99, 103, 255, 0.25);
+}
+
+
+/* =========================
+   FLOATING ANIMATION
+========================= */
+
+@keyframes floatProfile {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================
+   ORGANIC SHAPE ANIMATION
+========================= */
+
+@keyframes morphShape {
+
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    50% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    100% {
+        border-radius: 40% 60% 60% 40% / 40% 70% 30% 60%;
+    }
+
+}
+
+/* =========================
+   ABOUT ME
+========================= */
+
+#about {
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about .card {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    border-top: 5px solid #C9BEFF;
+    box-shadow: 0 5px 20px rgba(99, 103, 255, 0.12);
+}
+
+#about .card p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+#about .card p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #6367FF;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+/* =========================
+   EDUCATION
+========================= */
+
+.education-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* Education Card */
+
+.education-card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    border-top: 5px solid #C9BEFF;
+    box-shadow: 0 5px 20px rgba(99, 103, 255, 0.12);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(99, 103, 255, 0.20);
+}
+
+/* School Logo */
+
+.school-logo {
+    width: 150px;
+    height: 150px;
+    background-color: #C9BEFF;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.school-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+/* Education Text */
+
+.education-info h3 {
+    color: #6367FF;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.education-info p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    border-top: 5px solid #C9BEFF;
+    box-shadow: 0 4px 15px rgba(99, 103, 255, 0.12);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(99, 103, 255, 0.20);
+}
+
+.card h3 {
+    color: #6367FF;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   GOALS
+========================= */
+
+.goal-card {
+    max-width: 850px;
+    margin: auto;
+    background-color: #C9BEFF;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+    text-align: center;
+}
+
+.contact .card {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+}
+
+.contact a {
+    color: #6367FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #8494FF;
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #C9BEFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .profile img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 50px 20px;
+    }
+}
+
+
