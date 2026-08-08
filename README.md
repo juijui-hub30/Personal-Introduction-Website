@@ -16,9 +16,7 @@ navigation, responsive design, and basic CSS animations.
 - About Me section
 - Educational background
 - School logos
-- Skills section<img width="1335" height="996" alt="Screenshot Personal Portfolio Website" src="https://github.com/user-attachments/assets/8720daa6-e0a0-41d9-92f6-76c26a5a22c3" />
-<img width="1335" height="996" alt="Screenshot Personal Portfolio Website" src="https://github.com/user-attachments/assets/ea70924f-6a0e-4cf8-847d-49631e263a72" />
-
+- Skills section
 - Hobbies and interests
 - Career goals
 - Contact information
@@ -35,4 +33,4 @@ navigation, responsive design, and basic CSS animations.
 ## GitHub Repository
 (https://github.com/juijui-hub30/Personal-Website)
 ## Screenshot
-Screenshot Personal Portfolio Website.PNG
+<img width="1335" height="996" alt="Screenshot Personal Portfolio Website" src="https://github.com/user-attachments/assets/ea70924f-6a0e-4cf8-847d-49631e263a72" />
