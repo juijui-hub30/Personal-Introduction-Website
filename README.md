@@ -1,5 +1,5 @@
 # Personal-Introduction-Website
-# Personal Introduction Website
+# Personal Portfolio Website
 ## Student Information
 **Name:** Joy M. Nisperos  
 **Course and Section:** BSIT 3A
@@ -33,4 +33,4 @@ navigation, responsive design, and basic CSS animations.
 ## GitHub Repository
 (https://github.com/juijui-hub30/Personal-Website)
 ## Screenshot
-![Personal Website Screenshot](screenshot.png)
+Screenshot Personal Portfolio Website.PNG
