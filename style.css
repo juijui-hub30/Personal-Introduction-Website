@@ -445,5 +445,73 @@ footer {
         padding: 50px 20px;
     }
 }
+/* =================
+   MOBILE DEVICE
+==================== */
+@media (max-width: 768px) {
 
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
 
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .profile img {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* EDUCATION - MOBILE */
+
+    .education-container {
+        grid-template-columns: 1fr;
+    }
+
+    .education-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+    }
+
+    .school-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .education-info {
+        width: 100%;
+    }
+
+    .education-info h3 {
+        font-size: 20px;
+    }
+
+    .education-info p {
+        font-size: 15px;
+    }
+
+    /* SKILLS AND HOBBIES */
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 50px 20px;
+    }
+}
