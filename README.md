@@ -29,7 +29,7 @@ navigation, responsive design, and basic CSS animations.
 - HTML5
 - CSS3
 ## Live Website
-[View Live Website](YOUR-GITHUB-PAGES-LINK)
+(https://juijui-hub30.github.io/Personal-Website/)
 ## GitHub Repository
 [View Repository](YOUR-GITHUB-REPOSITORY-LINK)
 ## Screenshot
